@@ -16,7 +16,7 @@
 
 1. **Clone repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+   git clone https://github.com/sebastiangavinn/FrontendDevReactjs-Sebastian-Gavin.git
 
 2. **Masuk ke direktori proyek**
    ```npm install```
