@@ -26,7 +26,6 @@ export const Detail = () => {
           throw new Error("No restaurant data found");
         }
         setRestaurant(response.data.data);
-        console.log(response.data.data);
       } catch (error) {
         console.error("Error fetching restaurant detail from API:", error);
         setRestaurant({ location: { name: "Error fetching data" } });
