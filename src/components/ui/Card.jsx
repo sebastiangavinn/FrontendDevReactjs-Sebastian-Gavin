@@ -1,10 +1,11 @@
 import React from "react";
 import { ButtonLink } from "./ButtonLink";
 
-export const Card = ({ id, name, rating, category, price, isOpen }) => {
+export const Card = ({ id, name, image, rating, category, price, isOpen }) => {
   return (
     <div className="max-w-xs bg-white shadow-lg rounded-lg space-y-2">
-      <div className="bg-gray-200 h-48 w-full mb-4"></div>
+      {/* <div className="bg-gray-200 h-48 w-full mb-4"></div> */}
+      <img src={image} alt={name} className="bg-gray-200 h-48 w-full mb-4" />
 
       <h3 className="text-lg font-semibold">{name}</h3>
 

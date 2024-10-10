@@ -19,7 +19,6 @@ export const RestaurantList = () => {
   });
 
   const handleLoadMore = () => {
-    console.log("asu");
     setLoadData((prevCount) => prevCount + 8);
   };
 
@@ -56,6 +55,7 @@ export const RestaurantList = () => {
           <Card
             key={id}
             id={restaurant.restaurantsId}
+            image={restaurant.heroImgUrl}
             name={restaurant.name}
             rating={restaurant.averageRating}
             category={restaurant.establishmentTypeAndCuisineTags[0]}
